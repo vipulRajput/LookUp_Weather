@@ -24,7 +24,7 @@ enum ApiUrlEndPoints {
         switch self {
     
         case .getWeatherForcastData(let city):
-            return URL(string: "http://api.openweathermap.org/data/2.5/find?q=\(city)&appid=\(Constants.apiKey)")
+            return URL(string: "http://api.openweathermap.org/data/2.5/find?q=\(city.trimmingCharacters(in: .whitespaces))&appid=\(Constants.apiKey)")
         }
     }
 }

@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter City Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dUM-Nh-Qmd">
-                                <rect key="frame" x="32" y="420" width="350" height="62"/>
+                                <rect key="frame" x="32" y="372" width="350" height="62"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="62" id="oOA-fZ-4W7"/>
                                 </constraints>
@@ -26,14 +26,14 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wIj-yg-7Tb">
-                                <rect key="frame" x="32" y="482" width="350" height="2"/>
+                                <rect key="frame" x="32" y="434" width="350" height="2"/>
                                 <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="2" id="Mlm-CA-wmi"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zNf-ev-MpN" customClass="LoadingButton" customModule="WeatherLookup" customModuleProvider="target">
-                                <rect key="frame" x="56" y="526" width="302" height="52"/>
+                                <rect key="frame" x="56" y="478" width="302" height="52"/>
                                 <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="52" id="273-ue-K11"/>
@@ -52,7 +52,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="dUM-Nh-Qmd" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-24" id="0Ht-E7-MIp"/>
+                            <constraint firstItem="dUM-Nh-Qmd" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-72" id="0Ht-E7-MIp"/>
                             <constraint firstItem="dUM-Nh-Qmd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="0OW-xf-qY0"/>
                             <constraint firstItem="zNf-ev-MpN" firstAttribute="top" secondItem="wIj-yg-7Tb" secondAttribute="bottom" constant="42" id="7D5-8R-LrP"/>
                             <constraint firstItem="wIj-yg-7Tb" firstAttribute="top" secondItem="dUM-Nh-Qmd" secondAttribute="bottom" id="8dd-DM-bL4"/>
